@@ -1,0 +1,185 @@
+/* General */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    font-size: 10px;
+    background-color: rgb(221, 232, 240);
+}
+
+body {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* typography */
+
+* {
+    font-family: 'Oxygen', sans-serif;
+    color: #2a2a2a;
+
+}
+
+h1 {
+    font-size: 4.3rem;
+    padding-left: 40px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+li {
+    font-size: 1.4rem;
+}
+
+p, li {
+    line-height: 1.5;
+}
+
+/* header + nav */
+
+#logo {
+    height: 80px;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+nav, aside, footer {
+    background-color: white;
+    padding: 1%;
+}
+
+article {
+    padding: 2%;
+    background-color: white;
+    border-radius: 0 0 0 8px;
+}
+
+nav {
+    height: 50px;
+    background-color: white;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 8px 8px 0 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+    font-size: 2.3rem;
+    color: darkgray;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul :not(:last-child) {
+    border-right: 1px solid grey;
+}
+
+button{
+    background: none;
+    border: none;
+    font-size: 2.3rem;
+    color: black;
+}
+
+button:hover{
+    color: rgb(115, 117, 141);
+    cursor: pointer;
+}
+
+button:focus{
+    outline: none;
+}
+
+
+.active_model{
+    font-weight: bold;
+}
+/* main layout */
+
+main {
+    display: flex;
+}
+
+article {
+    flex: 4;
+}
+
+aside {
+    flex: 1;
+    margin-left: 10px;
+    background-color: white;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 0 0 8px 0 !important;
+
+}
+
+aside li {
+    padding-bottom: 10px;
+}
+
+#change_head{
+    margin-top: 20px;
+}
+
+#change_body{
+    max-height: 600px;
+    overflow-y: scroll;
+    margin-left: 10px;
+    padding-right: 13px;
+
+}
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(247, 247, 247);
+}
+
+
+::-webkit-scrollbar-thumb {
+    background:  rgb(194, 211, 223);
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(194, 211, 223, 0.7);
+}
