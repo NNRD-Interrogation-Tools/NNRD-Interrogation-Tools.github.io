@@ -4,7 +4,7 @@ let model_parent = document.getElementById('model_parent');
 let model = document.createElement('p');
 model.innerHTML = 'survival';
 
-let current_state = 'survival';
+let current_state = 'survival_l1';
 
 document.getElementById(current_state + "_btn").classList.add('active_model')
 
@@ -20,7 +20,7 @@ function clicked(modelName) {
         model_parent.innerHTML = '';
 
         // Create the elemnt to hold the model
-        let model = document.createElement('p');
+        let model = document.createElement('p'); // CHANGE TO IFRAME 
         model.innerHTML = modelName;
 
         // Add the model to the main body

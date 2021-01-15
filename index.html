@@ -20,8 +20,8 @@
 
     <nav>
         <ul>
-            <li><button id='survival_btn' onclick='clicked("survival")'>Survival and Length of Stay</button></li>
-            <!-- <li><button id='other_btn' onclick='clicked("other")'>Other</button></li> -->
+            <li><button id='survival_l1' onclick='clicked("survival")'>Survival and LoS - Public</button></li>
+            <li><button id='survival_l2' onclick='clicked("other")'>Survival and LoS - Private</button></li>
 
             <li>More Tools are in Development</li>
         </ul>
@@ -30,9 +30,18 @@
 
     <main>
 
-        <article id = 'model_parent'>
-            
-        </article>
+        <div id="main_body">
+            <div id="warning_parent">
+                <img src="https://img.icons8.com/emoji/48/000000/warning-emoji.png" />
+                <P> The data used in these tools are synthetic. Some was generated in-line with real data, however dates and locations have been randomly assigned.</P>
+                <img src="https://img.icons8.com/emoji/48/000000/warning-emoji.png" />
+            </div>
+
+            <article id='model_parent'>
+
+            </article>
+        </div>
+
 
         <aside>
             <div id='change_head'>
@@ -43,7 +52,7 @@
                 <hr>
                 <h3>4th January 2021</h3>
                 <ul>
-                    <li>Improved  wording of introduction on homepage</li>
+                    <li>Improved wording of introduction on homepage</li>
                 </ul>
 
                 <hr>
