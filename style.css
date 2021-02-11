@@ -176,10 +176,10 @@ main {
     flex-grow: 1;
     display: flex;
 }
+
 iframe{
     flex-grow: 1;
     border: 0;
-    clip: rect(0px,1100px,543px,0px);
 }
 
 aside {
@@ -214,7 +214,7 @@ a:active{
 }
 
 #change_body {
-    max-height: 650px;
+    max-height: 600px;
     overflow-y: scroll;
     margin-left: 10px;
     padding-right: 13px;
