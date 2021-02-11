@@ -20,10 +20,9 @@
 
     <nav>
         <ul>
-            <li><button id='survival_l1' onclick='clicked("survival")'>Survival and LoS - Public</button></li>
-            <li><button id='survival_l2' onclick='clicked("other")'>Survival and LoS - Private</button></li>
-
-            <li>More Tools are in Development</li>
+            <li><button id='survival_l1_btn' onclick='clicked("survival_l1", "eyJrIjoiMDIwMzJmYTEtYWNkYi00NDI5LTg1NzAtMmQ4ODY4ZDE3MzBmIiwidCI6IjJiODk3NTA3LWVlOGMtNDU3NS04MzBiLTRmODI2N2MzZDMwNyIsImMiOjh9&pageName=ReportSection918121c1d35be0d099e4", "Model Guide - L1")'>Survival and LoS - Public</button></li>
+            <li><button id='survival_l2_btn' onclick='clicked("survival_l2", "eyJrIjoiMmQyOTQzNzUtNjBiYy00ZGYxLWI5OWYtMDViZmFkZGY0OTIxIiwidCI6IjJiODk3NTA3LWVlOGMtNDU3NS04MzBiLTRmODI2N2MzZDMwNyIsImMiOjh9&pageName=ReportSection918121c1d35be0d099e4", "Model Guide - L2")'>Survival and LoS - Private</button></li>
+            <li id="more">More Tools are in Development</li>
         </ul>
 
     </nav>
@@ -31,10 +30,11 @@
     <main>
 
         <div id="main_body">
-            <div id="warning_parent">
-                <img src="https://img.icons8.com/emoji/48/000000/warning-emoji.png" />
-                <P> The data used in these tools are synthetic. Some was generated in-line with real data, however dates and locations have been randomly assigned.</P>
-                <img src="https://img.icons8.com/emoji/48/000000/warning-emoji.png" />
+            <div id="top_notice">
+                <P id="warning_msg">The dataset used in these tools has been synthetically generated and does not relate to any real babies.</P>
+                <P id="feedback_msg">These tools are still in development. Please provide feedback by filling out <a href = "https://docs.google.com/forms/d/e/1FAIpQLSd76vcrVGiFeAaaDXpfSpO777EyrdmItyDyUekqXpaUIP_GWA/viewform" target="_blank">this short survey</a></P>
+                <P id="guide_msg">For more information on how to use this tool, please refer to the <a id= guide_link href="./Model Guide - L1.pdf" target="_blank"">user guide</a></P>
+
             </div>
 
             <article id='model_parent'>
