@@ -89,6 +89,14 @@ nav, aside, footer {
     margin-bottom: 1%;
 }
 
+#warning_msg2{
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    font-size: 0.9vw;
+    margin-top: 1%;
+}
+
 #feedback_msg, #guide_msg{
     text-align: center;
     font-size: 0.9vw;
