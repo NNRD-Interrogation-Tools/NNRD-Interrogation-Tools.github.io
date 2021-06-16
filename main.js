@@ -3,7 +3,7 @@
 let model_parent = document.getElementById('model_parent');
 
 let iframe = document.createElement('iframe');
-iframe.src = 'https://app.powerbi.com/view?r=eyJrIjoiMDIwMzJmYTEtYWNkYi00NDI5LTg1NzAtMmQ4ODY4ZDE3MzBmIiwidCI6IjJiODk3NTA3LWVlOGMtNDU3NS04MzBiLTRmODI2N2MzZDMwNyIsImMiOjh9&pageName=ReportSection918121c1d35be0d099e4'
+iframe.src = 'https://app.powerbi.com/view?r=eyJrIjoiYzUyNGI3YTAtZTdlMC00YTUwLTgzNTgtNDU1MzNjMWYzZmM3IiwidCI6IjJiODk3NTA3LWVlOGMtNDU3NS04MzBiLTRmODI2N2MzZDMwNyIsImMiOjh9&pageName=ReportSection918121c1d35be0d099e4'
 
 let current_state = 'survival_l1';
 
