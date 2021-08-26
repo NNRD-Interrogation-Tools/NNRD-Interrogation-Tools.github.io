@@ -3,6 +3,8 @@
 html, body {
     margin: 0;
     padding: 0;
+    height: 500px;
+
 }
 
 html {
@@ -111,7 +113,12 @@ nav, aside, footer {
 #main_body {
     padding: 1.6%;
     background-color: white;
-    border-radius: 0 0 0 8px;
+    border-radius: 8px;
+    height: 780px;
+}
+
+iframe{
+    width: 100%;
 }
 
 nav {
